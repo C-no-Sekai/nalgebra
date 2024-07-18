@@ -94,7 +94,8 @@ an optimized set of tools for computer graphics and physics. Those features incl
     html_root_url = "https://docs.rs/nalgebra/0.25.0"
 )]
 #![cfg_attr(not(feature = "std"), no_std)]
-
+#![feature(const_fn)]
+    
 /// Generates an appropriate deprecation note with a suggestion for replacement.
 ///
 /// Used for deprecating slice types in various locations throughout the library.
